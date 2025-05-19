@@ -39,7 +39,7 @@ class AlfredAgent:
         #     huggingfacehub_api_token=settings.HUGGINGFACEHUB_API_TOKEN,
         # )
         llm = ChatOpenAI(
-            model_name="deepseek-r1-distill-llama-70b",  # TODO test with "llama3-8b-8192",
+            model_name="llama3-8b-8192", #"deepseek-r1-distill-llama-70b",  # TODO test with "llama3-8b-8192",
             openai_api_key=settings.GROQ_API_KEY,
             openai_api_base="https://api.groq.com/openai/v1",  # Groq's endpoint
             temperature=0.7
