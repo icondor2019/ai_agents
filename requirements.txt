@@ -1,0 +1,12 @@
+dotenv
+pydantic_settings
+langchain
+langgraph
+huggingface_hub
+langchain_huggingface
+langchain_community
+fastapi
+loguru
+uvicorn
+pandas
+flake8
