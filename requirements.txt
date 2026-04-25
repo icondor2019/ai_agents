@@ -10,3 +10,6 @@ loguru
 uvicorn
 pandas
 flake8
+openai
+supabase
+chromadb
