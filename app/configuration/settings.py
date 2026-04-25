@@ -39,6 +39,10 @@ class Settings(BaseSettings):
     # Groq
     GROQ_API_KEY: str = os.getenv("GROQ_API_KEY")
 
+    # Supabase
+    SUPABASE_URL: str = os.getenv("SUPABASE_URL")
+    SUPABASE_KEY: str = os.getenv("SUPABASE_KEY")
+
     class Config():
         case_sensitive = True
 
