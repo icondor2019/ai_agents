@@ -13,3 +13,4 @@ flake8
 openai
 supabase
 chromadb
+langchain-openai

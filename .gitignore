@@ -175,3 +175,4 @@ cython_debug/
 
 # Exclude local files
 local*
+*.csv
